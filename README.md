@@ -10,7 +10,7 @@ Please join <a href="https://discord.gg/xBPBXfcFHd"><img alt="Join us on Discord
 
 This repository now also contains a MIT licensed version of <a href="https://arxiv.org/abs/2107.03312">SoundStream</a>. It is also compatible with <a href="https://github.com/facebookresearch/encodec">EnCodec</a>, which is also [MIT-licensed](https://github.com/facebookresearch/encodec/commit/349b72939f57cb3bc7b60906c0ee8228c849485d) at the time of writing.
 
-Update: AudioLM was essentially used to 'solve' music generation in the new <a href="https://github.com/lucidrains/musiclm-pytorch">MusicLM</a>
+Update: AudioLM was essentially used to 'solve' music generation in the new <a href="https://github.com/osehmathias/musiclm-pytorch">MusicLM</a>
 
 In the future, <a href="https://www.youtube.com/watch?v=olNvmUCmY8o">this movie clip</a> would no longer make any sense. You would just prompt an AI instead.
 
@@ -45,7 +45,7 @@ In the future, <a href="https://www.youtube.com/watch?v=olNvmUCmY8o">this movie 
 ## Install
 
 ```bash
-$ pip install audiolm-pytorch
+$ pip install audiolm-superfeel
 ```
 
 ## Usage
@@ -364,7 +364,7 @@ $ accelerate launch train.py
 - [x] add conditioning
 - [x] add classifier free guidance
 - [x] add unique consecutive for 
-- [x] incorporate ability to use hubert intermediate features as semantic tokens, recommended by <a href="https://github.com/lucidrains/audiolm-pytorch/discussions/13">eonglints</a>
+- [x] incorporate ability to use hubert intermediate features as semantic tokens, recommended by <a href="https://github.com/osehmathias/audiolm-superfeel/discussions/13">eonglints</a>
 - [x] accommodate variable lengthed audio, bring in eos token
 - [x] make sure unique consecutive works with coarse transformer
 - [x] pretty printing all discriminator losses to log
